@@ -1,0 +1,31 @@
+#logo-nav {
+  left: auto;
+}
+.navigation {
+  display:flex;
+    justify-content:flex-end;
+}
+ul {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 10px;
+  font-family: 'Poppins',sans-serif;
+  display: flex;
+  list-style-type: none;
+  padding-left: 10px;
+  width:100%;
+
+}
+#menu {
+  padding: 30px;
+
+}
+#logo-nav-bar {
+  display: block;
+}
+nav a {
+  padding: 30px;
+}
+nav ul{
+  display: flex;
+}
