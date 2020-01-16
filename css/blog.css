@@ -1,0 +1,34 @@
+/*
+--Blog css--
+*/
+
+.blog { margin-top: 150px; }
+.blog-content { margin-bottom: 150px; }
+.blog-content:last-child { margin-bottom: 0; }
+
+.blog-content .triangles {
+    margin-top: 15px;
+    margin-bottom: 25px; }
+
+.blog-content img {
+    height: auto;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+
+.blog-content img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); }
+
+.blog-content p {
+    margin-bottom: 15px;
+    color: #616161; }
+
+.blog-content p:last-child {
+    margin-bottom: 0; }
+
+/*Going to col-sm*/
+@media screen and (max-width: 768px) {
+    .blog-content img {
+        margin-top: 35px; }
+}

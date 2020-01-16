@@ -1,0 +1,24 @@
+/*
+--Gallery--
+*/
+
+.gallery-container {
+    padding: 10px;
+    height: 293px;
+     }
+
+.gallery img {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 0px; }
+
+.gallery p {
+  padding-top: 0px;
+  margin-top: -25px;
+  text-transform: uppercase;
+  font-family: 'Mukta', sans-serif;
+  font-size: 14px;
+  color: #c2d6db;
+}

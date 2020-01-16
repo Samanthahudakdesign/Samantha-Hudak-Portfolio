@@ -1,0 +1,62 @@
+/*
+--Contact css--
+*/
+
+.contact { margin-top: 150px; }
+
+.contact .triangles {
+    margin-top: 15px;
+    margin-bottom: 35px; }
+
+.contact-img {
+    /*Image of a pc*/
+    background: url("../images/contact/contact-lg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 388px;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+
+.contact p { margin-bottom: 8px; }
+.contact .submit { margin-top: 22px; }
+input { margin-bottom: 20px; }
+
+input, textarea {
+    width: 100%;
+    border: 2px solid #000000;
+    padding: 8px 10px 8px 10px;
+    font-size: 18px;
+    border-radius: 2px;
+    color: #616161; }
+
+input:focus, textarea:focus {
+    outline-color: #616161;
+    -moz-outline-color: #616161;}
+
+/*Going to col-md*/
+@media screen and (max-width: 992px) {
+    .contact-img {
+        /*Image of a tablet*/
+        background: url("../images/contact/contact-md.jpeg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; }
+
+    .contact-img-container {
+        margin-top: 35px; }
+}
+
+/*Going to col-sm*/
+@media screen and (max-width: 768px) {
+    .contact-img {
+        /*Image of a cellphone*/
+        background: url("../images/contact/contact-sm.jpeg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; }
+}
