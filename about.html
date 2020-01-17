@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sucof Portfolio">
+    <meta name="description" content="Samantha Hudak Portfolio">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript,Jquery,Bootstrap">
-    <meta name="author" content="Sucof">
-    <title>SUCOF</title>
+    <meta name="author" content="Samantha Hudak">
+    <title>Samantha Hudak Design</title>
     <!--FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i&display=swap" rel="stylesheet">
+
     <!--BOOTSTRAP, HAMBURGER, AOS, MAIN CSS, PAGE CSS-->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/hamburger.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/about.css">
     <!--FAVICON-->
     <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
 </head>
@@ -26,12 +30,12 @@
             <div class="row justify-content-md-center justify-content-sm-center">
                 <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
                     <div class="row">
-                        <div class="col">
-                            <div class="logo">
-                                <!--LOGO NAME-->
-                                <a href="index.html">Sucof</a>
-                            </div>
-                        </div>
+                         <div class="col">
+                             <div class="logo">
+                                 <!--LOGO NAME-->
+                                 <img src="images/logo.svg"></a>
+                             </div>
+                         </div>
                         <div class="col">
                             <div class="hamburger hamburger--3dx">
                                 <div class="hamburger-box">
@@ -46,21 +50,16 @@
                         <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
                             <div class="nav-link" onclick="location.href='index.html';">
                                 <!--LINK NAME-->
-                                <a href="index.html">Gallery</a>
+                                <a href="index.html">Home</a>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
                             <div class="nav-link" onclick="location.href='about.html';">
                                 <!--LINK NAME-->
-                                <a href="about.html">About</a>
+                                <a href="resume.html">Resume</a>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
-                            <div class="nav-link" onclick="location.href='blog.html';">
-                                <!--LINK NAME-->
-                                <a href="blog.html">Blog</a>
-                            </div>
-                        </div>
+
                         <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 animated bounce">
                             <div class="nav-link focus" onclick="location.href='contact.html';">
                                 <!--LINK NAME-->
@@ -73,117 +72,43 @@
         </div>
         <!--NAVIGATION BAR END-->
 
-        <!--ABOUT-->
-        <div class="about" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
-            <!--ABOUT INTRODUCTION-->
-            <div class="greetings">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8 col-10">
-                        <!--Welcome Title-->
-                        <h1>I love being a photographer</h1>
-                    </div>
-                </div>
-                <!--DIVIDER-->
-                <div class="row">
-                    <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2">
-                        <div class="triangles"></div>
-                    </div>
-                </div>
-                <!--DIVIDER END-->
-                <!--ABOUT INFORMATION-->
-                <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12">
-                        <p>Hey, my name is john teller. I am twenty four years old and i live in california.</p>
-                        <p>
-                            What makes me different from other photographers?
-                            I like to say that I am different from others because I focus on the
-                            <!--USE THIS SPAN FOR HIGHLIGHT-->
-                            <span class="underline">art</span> of photography. For me it's all about capturing a memory
-                            that you can have forever, essentially it's all about focusing on the details.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!--ABOUT INTRODUCTION END-->
-
-            <!--IMAGE-->
+        <!--GREETINGS, INTRODUCTION-->
+        <div class="greetings" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
             <div class="row">
                 <div class="col">
-                    <img src="https://static.pexels.com/photos/372098/pexels-photo-372098.jpeg">
-                    <!--IMAGE SOURCE EXAMPLE-->
-                    <!--<img src="images/about/yourimage.jpeg" alt="">-->
-                </div>
-            </div>
-            <!--IMAGE NED-->
+                    <!--WELCOME TEXT-->
 
-            <!--MORE INFORMATION-->
-            <div class="more-information">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"
-                         data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
-                        <!--TITLE-->
-                        <h2>Why i'm a photographer</h2>
-                        <!--ITEMS-->
-                        <ul>
-                            <li>To see the beauty in the every day</li>
-                            <li>Capture the amazing range of love and emotion</li>
-                            <li>Share my perspective</li>
-                            <li>Express myself</li>
-                            <li>Capture an adventure</li>
-                            <li>Capture the essence of a person</li>
-                            <li>Preserve the big moments</li>
-                            <li>Capture a feeling, not just an appearance</li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"
-                         data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
-                        <!--TITLE-->
-                        <h2>Experience</h2>
-                        <!--ITEMS-->
-                        <ul>
-                            <li>I do freelance work for major Photography magazines</li>
-                            <li>I'm used to do wedding/social events</li>
-                            <li>Experience with editing tools</li>
-                            <!--ADD MORE ITEMS-->
-                            <!--<li>Experience with editing tools</li>-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--MORE INFORMATION END-->
-        </div>
-        <!--ABOUT END-->
+                    <h1 id="intro-name"> Hey, thanks for stopping by &mdash; I'm glad to tell you a little more about myself!</h1>
 
-        <!--DIVIDER-->
-        <div class="divider">
-            <div class="row">
-                <div class="col">
-                    <div class="triangles"></div>
+                    <p> I'm a graphic designer currently working in Ohio City &mdash; Cleveland, Ohio. I have a Bachelors of Fine Art in Visual Communication Design from Kent State University. <br><br>
+                    Professionally & personally my number one value I strive to put into everything I do &mdash; is empathy. Whether it be empathy for others hardships, situations, thoughts and feelings,
+                    or how a design could make a person feel & react. <br><br></p>
+
+                    <h2>Here's the part where everyone tells you about their hobbies.</h2>
+                    <p> I love everything from the curly locks on Jon Snows hair in Game of Thrones, tossing a coin to my Witcher, exploring time and space in a flying police box, exploring the deep
+                      jungles of Stranglethorn Vale in the World of Warcraft, and harvesting all of the gold star blueberries in Pelican Town of Stardew Valley.<br><br>
+
+                      Although, when I'm not playing video games &mdash; I'm doing the following things: Trying out new keto recipes in my instant pot, baking cookies for my coworkers, taking photos of
+                      my cat Aspen, lifting heavy things and putting them back down, trying out all of Cleveland's fine coffee shops & practicing new illustration techniques.
+
+
+                  </p>
+
+
                 </div>
             </div>
+
         </div>
-        <!--DIVIDER END-->
+        <!--GREETINGS, INTRODUCTION END-->
+
 
         <!--FOOTER-->
         <div class="footer">
             <div class="row">
-                <!--COPY RIGHT-->
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-col">
-                    <p>&#169; 2017 all rights reserved Sucof.</p>
-                </div>
-                <!--CONTACT INFORMATION-->
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-col">
-                    <p>e: sucof@gmail.com</p>
-                    <p>n: (360)380-000-221</p>
-                </div>
-                <!--SOCIAL LINKS-->
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-col">
-                    <p><a href="http://www.instagram.com" target="_blank">instagram.com/sucof</a></p>
-                    <p><a href="https://www.facebook.com" target="_blank">facebook.com/sucof</a></p>
-                    <p><a href="https://www.behance.net" target="_blank">behance.net/sucof</a></p>
-                </div>
-            </div>
         </div>
+
+        <div class="made-by">
+          <p> Made with &#x1F496; by Samantha Hudak </p>
         <!--FOOTER END-->
     </div>
 

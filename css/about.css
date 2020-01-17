@@ -1,8 +1,23 @@
 /*
 --About css--
 */
+#intro-name {
+  text-align: left;
+}
+.greetings p {
+  text-align: left;
+}
 
-.about h1 { margin-bottom: 20px; }
+.greetings h2 {
+  text-align: left;
+  margin-left: 16%;
+  margin-right: 10%;
+  color: #EE6B62;
+}
+h1 {
+  margin-bottom: 20px;
+  margin-left: 16%;
+  margin-right: 16%;}
 
 .about li {
     padding: 16px 0 0 24px;
@@ -30,4 +45,8 @@
 
     .more-information h2 {
         margin-top: 45px; }
+    .logo {
+      width: 25%;
+      height: 25%;
+    }
 }
