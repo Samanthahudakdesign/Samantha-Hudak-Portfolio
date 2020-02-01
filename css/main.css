@@ -1,7 +1,9 @@
 * { margin: 0; padding: 0; }
 
 #intro-name{ text-align: center;}
-
+a:hover {
+  background-color:  #F9D477;
+}
 body {
     font-family: 'Mukta', sans-serif;
     font-weight: 400;
@@ -227,10 +229,8 @@ color:#222D62}
 }
 
 .footer .row {
-  align-items: center;
-  margin-right: -500px;
-  margin-left: 500px;
-  color: #ffffff;
+  justify-content: center;
+
 }
 
 
@@ -253,8 +253,8 @@ padding-top: 2em;}
     .hamburger { display: block; }
     .nav-links { display: none; }
     .logo {
-      height: 150px;
-      width: 150px;
+      height: 50px;
+      width: 50px;
       padding-bottom: 200px;}
 
 }
