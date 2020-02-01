@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Spectral');
 
 body {
@@ -9,14 +8,17 @@ body {
   overflow-x: hidden;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
+
 @media (max-width: 980px) {
-img {
-  width: 25px;
-}
+  img {
+    width: 25px;
+  }
+
   h1 {
     font-size: 35px;
   }
@@ -57,11 +59,18 @@ img {
   TYPOGRAPHY
 -----------------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-family: 'Mukta', sans-serif;
 }
 
@@ -115,7 +124,7 @@ PROJECT Detail
 
 }
 
-.detail{
+.detail {
   padding: 10px;
   padding-left: 5%;
   padding-right: 50%;
@@ -123,14 +132,14 @@ PROJECT Detail
 
 }
 
-.project-detail-info{
+.project-detail-info {
   padding: 10px;
   padding-left: 25%;
 
 }
 
 body {
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
 
 }
 
@@ -139,14 +148,13 @@ h3 {
   font-size: 20px;
   font-weight: 300;
   line-height: 30px;
-  letter-spacing:0.5px;
+  letter-spacing: 0.5px;
 }
 
-p{
+p {
   font-family: "Spectral", serif;
   font-size: 20px;
   color: #222d62
-
 }
 
 /*---------------------------------------
@@ -234,7 +242,7 @@ p{
   GENERAL
 -----------------------------------------*/
 
-html{
+html {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -244,7 +252,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #000000;
   outline: none;
 }
@@ -260,7 +270,7 @@ a:hover, a:active, a:focus {
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
@@ -275,15 +285,18 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;
 }
 
-#about img, .team-item img,
-.project-item img, #project-detail img,
+#about img,
+.team-item img,
+.project-item img,
+#project-detail img,
 #client img,
 #contact img {
   border-radius: 1px;
   width: 100%;
 }
 
-#contact-info, footer {
+#contact-info,
+footer {
   text-align: center;
 }
 
@@ -330,11 +343,15 @@ a:hover, a:active, a:focus {
 }
 
 @-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);}
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spinner {
-  to {transform: rotate(360deg);}
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 
@@ -371,7 +388,7 @@ a:hover, a:active, a:focus {
   color: #454545;
 }
 
-.navbar-default .navbar-nav li.active > a {
+.navbar-default .navbar-nav li.active>a {
   background-color: transparent;
   color: #5050FF;
 }
@@ -484,7 +501,7 @@ a:hover, a:active, a:focus {
 }
 
 .team-overlay {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   position: absolute;
   width: 100%;
@@ -754,27 +771,45 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 
-.footer { margin-bottom: 100px; }
-.footer { margin-top: 200px; }
-.footer-col { padding-bottom: 15px; }
-.footer a:hover { text-decoration: underline; }
-.footer p { padding-bottom: 5px; }
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.footer-col {
+  padding-bottom: 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  padding-bottom: 5px;
+}
+
 .footer img {
   height: 25px;
   width: 25px;
   align-items: center;
   margin-right: 1em;
-  color:#c2d6db;
+  color: #c2d6db;
 }
+
 .footer .row {
   align-items: center;
   margin-right: -500px;
   margin-left: 500px;
 }
+
 .footer .made-by {
   text-align: center;
-font-size: 12px;
-padding-top: 5em;}
+  font-size: 12px;
+  padding-top: 5em;
+}
 
 /*---------------------------------------
   SOCIAL ICON
@@ -823,9 +858,10 @@ padding-top: 5em;}
 -----------------------------------------*/
 
 @media (max-width: 980px) {
-.logo img {
-  width: 25px;
-}
+  .logo img {
+    width: 25px;
+  }
+
   h1 {
     font-size: 35px;
   }
@@ -866,7 +902,7 @@ padding-top: 5em;}
 
   .navbar-default {
     background-color: #ffffff;
-    box-shadow:0 40px 100px rgba(0,0,0,.2);
+    box-shadow: 0 40px 100px rgba(0, 0, 0, .2);
     padding-top: 0;
   }
 }
