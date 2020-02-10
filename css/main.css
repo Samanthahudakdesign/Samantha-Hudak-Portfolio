@@ -40,7 +40,9 @@ h3 {
 
 }
 p { line-height: 1.8;}
-
+.img-responsive-about {
+    display: block;
+    width: 25%;}
 .img-responsive {display: block;
     width: 100%;}
 }
@@ -154,7 +156,8 @@ button:hover {
 
 .hamburger {
     display: none;
-    text-align: right; }
+    text-align: right;
+    color: #EE6B62;}
 
 .logo {
     height:75%;
@@ -261,12 +264,16 @@ padding-top: 2em;}
       padding-bottom: 200px;}
 
 }
-
 @media screen and (max-width: 375px) {
   #intro-name{
     text-align: left;
     font-size:30px;
       margin-left: 25px;
+  }
+  #intro-name-about{
+    text-align: left;
+    font-size:24px;
+    margin-left: 25px;
   }
   .logo {
     margin-left: 150px;
@@ -278,7 +285,7 @@ padding-top: 2em;}
     text-align: left;
     margin-left: 25px;
     margin-right: 25px;
-    font-size: 22px;
+    font-size: 16px;
   }
   .learn-more {
     text-align: left;
@@ -286,7 +293,14 @@ padding-top: 2em;}
   h2 {
     text-align: left;
       margin-left: 25px;
+
   }
+
+  .img-responsive-about {
+      display: block;
+      width: 100%;
+    padding: 25px;}
+
 }
 
 @media screen and (max-width:1024px) {
@@ -305,7 +319,7 @@ padding-top: 2em;}
     text-align: left;
     margin-left: 25px;
     margin-right: 25px;
-    font-size: 22px;
+    font-size: 16px;
   }
   .learn-more {
     text-align: left;
