@@ -3,28 +3,7 @@
 #intro-name{ 
   text-align: left;}
 
-  .hover-3 { 
-    &:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        background-color: @green;
-        transform: scaleX(0);
-        transform-origin: bottom left;
-
-        transition: transform 0.3s;
-    }
-
-    &:hover {
-        &:after {
-            transform: scaleX(1);
-        }
-    }
-}
-
+  
 
   
   }
@@ -35,7 +14,7 @@
   }
 
  .triangle-background {
-  position: absolute;
+  position: fixed;
   top:0px;
   right: 0;
   width: 953px;
@@ -48,6 +27,18 @@
     right: 0;
     z-index: -1;}
   
+
+  .resume-blob-top {
+    position: absolute;
+    top:281px;
+    left: -245px;
+    z-index: -1;}
+       
+    .resume-blob-right {
+        position: absolute;
+        top: 2100px;
+        right: 0px;
+        z-index: -1;}
   p{
   font-size: 16px;
 }
@@ -79,7 +70,7 @@ body {
     }
     
 
-h1, h2 { font-weight: 300; }
+
 h1 {
     font-family: 'Mukta', sans-serif;
     font-size: 30px;
@@ -107,10 +98,121 @@ h3 {
       color: #222D62;
       display:block;
       z-index: 3;
-      background-color: #ffffff;
+     
       font-family: 'Mukta', sans-serif;
       font-weight: 800;
       line-height: 1.8;}
+
+h6 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 54px;
+    font-weight: 600;
+    margin-left: 10px;
+    
+    margin-bottom: 10px;
+    color:#2CBCB2 ;
+}
+
+.resume-squiggle {
+  width: 50%;
+}
+
+#education {
+  margin-top: 25%;
+}
+
+#kent-state{
+  font-size:21px;
+}
+
+#job-title-teal{
+  font-size:21px;
+  color:#2CBCB2 ;  
+}
+
+#employer-teal{
+  font-size: 21px;
+  font-weight: 300;
+  color:#2CBCB2 ; 
+}
+
+#experience-year-yellow {
+  color:#F9D477; 
+}
+#employer-yellow {
+  color:#F9D477; 
+  font-size: 21px;
+  font-weight: 300;
+  
+}
+#job-title-yellow{
+  font-size:21px;
+  color:#F9D477 ;  
+}
+
+#experience-year-coral {
+  color:#F18982; 
+}
+#employer-coral {
+  color:#F18982; 
+  font-size: 21px;
+  font-weight: 300;
+  
+}
+#job-title-coral{
+  font-size:21px;
+  color:#F18982 ;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bachelors{
+  font-size: 21px;
+  font-weight: 300; 
+}
+
+#education-details {
+  margin-top: 25px;
+}
+#experience {
+  color:#2CBCB2 ;
+}
+
+#experience-year-teal{
+  color:#2CBCB2;
+}
+
+h7 {
+  font-family: 'Mukta', sans-serif;
+  font-size:72px;
+    font-weight: 600;
+    margin-top: 50%;
+    margin-bottom: 10px;
+    color:#7D51A1 ;
+}
+
+#education-body {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+#experience-body {
+  
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
 
 .resume-logo {
   size: 100px;
@@ -118,17 +220,34 @@ h3 {
 p { line-height: 1.8;
   font-family: 'Mukta', sans-serif;
   font-weight: 400;
-  font-size: 16px;}
+  font-size: 16px;
+color:#292C6A ;}
 .about-text {
   text-align: left;
   margin-left: 10%;
   font-size: 15px;
   
 }
+.resume-intro-text {
+  margin-left: 10px;
+  width: 75%;
+
+}
+.squiggle-about-header {
+  margin-top: 25%;
+  width: 35%;
+  margin-left: -2%;
+  }
+
+  .squiggle-resume-header {
+   margin-top: 30%;
+  width: 20%;
+ 
+  }
+
 .squiggle {
   width: 20%;
   margin-left: -2%;
-
 }
 
 .about-subhead {
@@ -258,17 +377,23 @@ li { list-style-type: none; }
 }
 /*Button*/
 button {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 16px 28px 16px 28px;
-    border: none;
-    font-size: 16px;
+    background-color: #FFF8FA;
+    color: #2CBCB2;
+    padding: 16px 60px 16px 60px;
+    border: 2px solid #2CBCB2;
+    font-size: 18px;
+    font-family: Mukta;
+    font-weight: 700;
     outline: none;
     cursor: pointer;
-    text-transform: uppercase; }
-
+    margin-left: 10px;
+    margin-top: 15%;
+    border-radius: 36px;
+  
+}
 button:hover {
-    background-color: #9E9E9E; }
+    background-color: #2CBCB2;
+  color: #ffffff; }
 
 /*Transition*/
 .gallery img, .blog-content img, .submit button {
@@ -418,9 +543,20 @@ margin-left: 30px;
       .nav-link a {
         line-height: 40px;
         text-decoration: none;
-        
-
       }
+      
+      #experience-squiggle {
+        width: 300px;
+      }
+
+      #education-details{
+        padding-left: 100px;
+      }
+
+      #experience-body {
+        margin-right: 10%;
+      }
+
 
 }
 @media screen and (max-width: 576px) {
@@ -470,7 +606,7 @@ margin-left: 30px;
   }
   h2 {
     text-align: left;
-      margin-left: 25px;
+    margin-left: 25px;
 
   }
 
@@ -479,6 +615,15 @@ margin-left: 30px;
       width: 100%;
     padding: 25px;}
 
+}
+
+.resume-blob-top {
+  position: absolute;
+  top:281px;
+  left: -0px;
+  z-index: -1;
+  display: block;
+  width: 100%;
 }
 
 @media screen and (max-width:1024px) {
@@ -518,4 +663,44 @@ margin-left: 30px;
   .more-information h2 {
       margin-top: 45px; }
 
+}
+
+@media screen and (max-width: 400px) {
+h6 {
+  font-size: 40px;
+  }
+h7 {
+  font-size: 50px;
+  width: 80%;
+
+}
+.squiggle-resume-header {
+  width: 50%;
+}
+.resume-squiggle {
+  width: 100%;
+}
+#education-details {
+  padding-left: 25px;
+}
+
+#education-body {
+  margin-right: 10px;
+}
+#year {
+  margin-left
+}
+
+.squiggle-about-header {
+  width: 70%;
+  margin-left: -20px;
+  margin-top: 0px;
+}
+.intro-name-about {
+  margin-left: 25px;
+}
+
+.about-photo {
+  width: 80%;
+  margin-left: 25px;
 }
