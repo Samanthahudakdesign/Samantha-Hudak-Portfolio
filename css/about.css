@@ -46,6 +46,9 @@ h1 {
 .more-information { margin-top: 75px; }
 .more-information h2 { margin-bottom: 10px; }
 
+
+
+
 @media screen and (max-width:1024px) {
   .greetings h2 {
     font-size: 20px;

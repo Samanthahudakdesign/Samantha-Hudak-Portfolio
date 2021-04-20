@@ -1,69 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="description" content="Samantha Hudak Portfolio">
+     <meta name="keywords" content="HTML,CSS,XML,JavaScript,Jquery,Bootstrap">
+     <meta name="author" content="Samantha Hudak">
+     <title>Samantha Hudak Design</title>
+     <!--FONTS-->
+     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:900" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&display=swap"
+          rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&display=swap" rel="stylesheet">    
+     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i&display=swap" rel="stylesheet">
 
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <!--BOOTSTRAP, HAMBURGER, AOS, MAIN CSS, PAGE CSS-->
+     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+     <link rel="stylesheet" href="css/hamburger.css">
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/gallery.css">
+     <link rel="stylesheet" href="css/aos.css">
+    
+     <!--FAVICON-->
+     <link rel="icon" href="images/logo.svg" type="image/gif" sizes="16x16">
 
-<title>Eunoia - Minimal Portfolio Template</title>
-
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-
-<!-- MAIN CSS -->
-<link rel="stylesheet" href="css/style.css">
-
+     
 </head>
+
 <body>
-
-<!-- PRE LOADER -->
-<div class="preloader">
-     <div class="spinner">
-          <span class="sk-inner-circle"></span>
-     </div>
-</div>
-
-
-<!-- MENU -->
-<div class="navbar navbar-default navbar-static-top" role="navigation">
+<img src="images/triangle-blob-img.png" class="triangle-background">
      <div class="container">
+          <!--NAVIGATION BAR-->
+          <div class="nav">
+               <div class="row justify-content-md-center justify-content-sm-center">
+                    <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                         <div class="row">
+                              <div class="col">
+                                   <div class="logo">
+                                        <!--LOGO NAME-->
+                                        <a href="index.html"><img src="images/logo.svg" ></a>
+                                   </div>
+                              </div>
+                              <div class="col">
+                                   <div class="hamburger hamburger--3dx">
+                                        <div class="hamburger-box">
+                                             <div class="hamburger-inner"></div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div id="dropDown" class="col-xl-10 col-lg-10 col-md-12 col-sm-12 nav-links">
+                         <div class="row justify-content-xl-end justify-content-lg-end">
+                              <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                                   <div class="nav-link" onclick="location.href='index.html';">
+                                        <!--LINK NAME-->
+                                        <a href="index.html">Work</a>
+                                   </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                                   <div class="nav-link" onclick="location.href='about.html';">
+                                        <!--LINK NAME-->
+                                        <a href="about.html">About</a>
+                                   </div>
+                              </div>
+                              <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                                   <div class="nav-link" onclick="location.href='resume.html';">
+                                        <!--LINK NAME-->
+                                        <a href="resume.html">Resume</a>
+                                   </div>
+                              </div>
 
-          <!-- NAVBAR HEADER -->
-          <div class="navbar-header">
-               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-               </button>
-               <!-- lOGO -->
-               <a href="index.html" class="navbar-brand">Eunoia.</a>
+                              
+                         </div>
+                    </div>
+               </div>
           </div>
-
-          <!-- MENU LINKS -->
-          <div class="collapse navbar-collapse">
-               <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#project" class="smoothScroll">Project</a></li>  
-                    <li><a href="#about" class="smoothScroll">About</a></li>
-                    <li><a href="#contact" class="smoothScroll">Let's talk</a></li>
-               </ul>
-          </div>
-
-     </div>
-</div>
-
+          <!--NAVIGATION BAR END-->
 
 <!-- HEADER -->
-<section id="header">
+<section id="project-header">
      <div class="container">
           <div class="row">
 
                <div class="col-md-6 col-sm-12">
-                    <h2>Single Detail Project here</h2>
+                    <h2>Display Perfectly Your Single Detail Project here</h2>
                </div>
 
           </div>
@@ -78,7 +101,7 @@
 
                <div class="col-md-12 col-sm-12">
                     <div class="project-detail-image">
-                         <img src="images/project-image1.jpg" class="img-responsive" alt="">
+                         <img src="images/project-detail-image.jpg" class="img-responsive" alt="">
                     </div>
                </div>
 
@@ -87,35 +110,15 @@
                          <p>As a showcase piece in a prime tourist area, we designed a life-sized LEGO bus shelter. Every detail—from bench, to roof, to little birdy—was recreated in proportionally-sized LEGO bricks. The shelter embodied the idea of building the unbuildable and captured attention for blocks, pun intended.</p>
                     </div>
 
-                    <div class="col-md-offset-1 col-lg-4 col-md-4 col-sm-6">
-                         <div class="project-detail-info">
-                              <p>Our Role</p>
-                              <h3>Web Design</h3>
-                              <h3>Front-end / HTML & CSS</h3>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-3">
-                         <div class="project-detail-info">
-                              <p>Client</p>
-                              <h3>Banana Noolab</h3>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-3 col-sm-3">
-                         <div class="project-detail-info">
-                              <p>Website</p>
-                              <h3><a href="#">hello-noolab.co</a></h3>
-                         </div>
-                    </div>
+                   
                </div>
 
                <div class="col-md-6 col-sm-6">
-                    <img src="images/project-image2.jpg" class="img-responsive" alt="">
+                    <img src="images/project-image5.jpg" class="img-responsive" alt="">
                </div>
 
                <div class="col-md-6 col-sm-6">
-                    <img src="images/project-image3.jpg" class="img-responsive" alt="">
+                    <img src="images/project-image6.jpg" class="img-responsive" alt="">
                </div>
 
           </div>
@@ -123,44 +126,74 @@
 </section>
 
 
-<!-- FOOTER -->
-<footer>
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-5 col-sm-6">
-                    <h2>Eunoia.</h2>
-                    <h3>124 Market Street, Suite San Francisco,<br> CA 3042 United States</h3>
+<div class="footer">
+     <div class="row">
+       <div class="footer-col">
+            <a href="https://dribbble.com/Samanthahudak">
+          <h5>Dribbble</h5>
+     </a>
+          </div>
+              <div class="footer-col">
+                   <a href="https://www.linkedin.com/in/samantha-hudak-4122638b/">
+               <h5>LinkedIn</h5>
+          </a>       
                </div>
+               <div class="footer-col"> 
+                    <a href="mailto:samanthahudakdesign@gmail.com" target="_blank" rel="noopener noreferrer">
 
-               <div class="col-md-4 col-sm-6">
-                    <div class="footer-info">
-                         <h4>I'm currently accepting freelance work.</h4>
-                         <p><a href="tel:00122042343">+(001) 40 782 6539</a></p>
-                         <p><a href="mailto:youremail@gmail.com">hello@youremail.com</a></p>
-                    </div>
+                    <h5>Email</h5>
+               </a>
                </div>
-
-               <div class="col-md-3 col-sm-12">
-                    <ul class="social-icon">
-                         <li><a href="#" class="fa fa-twitter"></a></li>
-                         <li><a href="#" class="fa fa-facebook"></a></li>
-                         <li><a href="#" class="fa fa-instagram"></a></li>
-                    </ul>
-               </div>
+     
                
+     
+     
+     
+     
+       
+     </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           </div>
           </div>
      </div>
-</footer>
-
-<!-- Back top -->
-<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
-
-<!-- SCRIPTS -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/custom.js"></script>
-
-</body>
-</html>
+</div>
