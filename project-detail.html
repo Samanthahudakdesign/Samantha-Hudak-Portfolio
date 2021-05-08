@@ -22,6 +22,7 @@
      <link rel="stylesheet" href="css/main.css">
      <link rel="stylesheet" href="css/gallery.css">
      <link rel="stylesheet" href="css/aos.css">
+     <link rel="stylesheet" href="css/project.css">
      
      <!--FAVICON-->
      <link rel="icon" href="images/logo.svg" type="image/gif" sizes="16x16">
@@ -137,15 +138,27 @@
           These are the personas that we mapped out for the potential users we’d like on our site. 
           </p>
 
-          <div class="row">
-               <div class="column-persona">
-                 <img src="images/cine-web/persona-1.png" alt="persona 1" style="width:100%">
-               </div>
-               <div class="column-persona">
-                 <img src="images/cine-web/persona-2.png" alt="persona 2" style="width:100%">
-               </div>
-               
-             </div>
+          <div class="container">
+
+               <section class="header">
+                
+             
+                 <div class="value-img">
+                   <img src="images/cine-web/persona-1.png" data-action="zoom" data-original="images/cine-web/persona-1.png" />
+                 </div>
+                 <div class="value-img">
+                    <img src="images/cine-web/persona-2.png" data-action="zoom" data-original="images/cine-web/persona-2.png" />
+                  </div>
+               </section>
+
+</div>
+
+
+
+
+
+
+
 
 
 
@@ -158,17 +171,24 @@
           </div>
           <p><b>Part 3:</b> <i>Menu & Site Map Brainstorming </i> <br>
 
-          <div class="row">
-               <div class="column">
-                 <img src="images/cine-web/white-board.png" alt="Snow" style="width:100%">
-               </div>
-               <div class="column">
-                 <img src="images/cine-web/site-map-1.png" alt="Forest" style="width:100%">
-               </div>
-               <div class="column">
-                 <img src="images/cine-web/site-map-2.png" alt="Mountains" style="width:100%">
-               </div>
-             </div>
+               <div class="container">
+
+                    <section class="header">
+                     
+                  
+                      <div class="value-img">
+                        <img src="images/cine-web/white-board.png" data-action="zoom" data-original="images/cine-web/white-board.png" />
+                      </div>
+                      <div class="value-img">
+                         <img src="images/cine-web/site-map-1.png" data-action="zoom" data-original="images/cine-web/site-map-1.png" />
+                       </div>
+                       <div class="value-img">
+                         <img src="images/cine-web/site-map-3.png" data-action="zoom" data-original="images/cine-web/site-map-3.png" />
+                       </div>
+                    </section>
+     
+     </div>
+     
 
 
              <img class="about-photo" src ="images/cine-web/site-map-3.png" alt="final site map"><br>
@@ -187,17 +207,21 @@
            for them to visualize without the use of color and more refined typography.
            <br><br>
 
-           <div class="row">
-               <div class="column-persona">
-                 <img src="images/cine-web/wireframe-1.png" alt="Snow" style="width:100%">
-               </div>
-               <div class="column-persona">
-                 <img src="images/cine-web/wireframe-2.png" alt="Forest" style="width:100%">
-               </div>
-               
-             </div>
-    
-          </p>
+           <div class="container">
+
+               <section class="header">
+                
+             
+                 <div class="value-img">
+                   <img src="images/cine-web/wireframe-1.png" data-action="zoom" data-original="images/cine-web/wireframe-1.png" />
+                 </div>
+                 <div class="value-img">
+                    <img src="images/cine-web/wireframe-2.png" data-action="zoom" data-original="images/cine-web/wireframe-2.png" />
+                  </div>
+               </section>
+
+</div>
+ </p>
 
           <div class="row">
                <div class="col-lg-6">
@@ -212,25 +236,112 @@
 
    
 
+               <div class="row">
+                    <div class="col-lg-6">
+                         <img class="squiggle-about-header" src="images/squiggle-3.svg">
+                         </div>
+               </div>
+          <p><b>Part 6:</b> <i> UI Design</i> <br>
+                    I had the pleasure of running user testing on my fellow coworkers for the wireframes. For this aspect I used
+                    the adobe XD prototype view - sent the links to our participants, and recored the screen through google meet as they went through.
+                    I had my list of questions ready, and followed them through the navigation of the wireframes.
+                    </p>
 
 
+                    
 
-
-
-
-          </p>
-
-
-
-
-     </div>
+                     
 </div>
 
      
 
-
-
-
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/zooming.min.js"></script>
+<script id="rendered-js">
+     /* eslint-disable */
+     
+     var config = Zooming.config(),
+     TRANSITION_DURATION_DEFAULT = config.transitionDuration,
+     TRANSITION_DURATION_SLOW = 1.0,
+     TRANSITION_DURATION_FAST = 0.2,
+     BG_COLOR_DEFAULT = config.bgColor,
+     BG_COLOR_DARK = '#000',
+     ENABLE_GRAB_DEFAULT = config.enableGrab,
+     ACTIVE_CLASS = 'button-primary',
+     
+     btnFast = document.getElementById('btn-fast'),
+     btnSlow = document.getElementById('btn-slow'),
+     btnDark = document.getElementById('btn-dark'),
+     btnNoGrab = document.getElementById('btn-no-grab');
+     
+     function isActive(el) {
+       return el.classList.contains(ACTIVE_CLASS);
+     }
+     
+     function activate(el) {
+       el.classList.add(ACTIVE_CLASS);
+     }
+     
+     function deactivate(el) {
+       el.classList.remove(ACTIVE_CLASS);
+     }
+     
+     function fast() {
+       var t;
+       if (isActive(btnFast)) {
+         t = TRANSITION_DURATION_DEFAULT;
+         deactivate(btnFast);
+       } else {
+         t = TRANSITION_DURATION_FAST;
+         activate(btnFast);
+         deactivate(btnSlow);
+       }
+     
+       Zooming.config({ transitionDuration: t });
+     }
+     
+     function slow() {
+       var t;
+       if (isActive(btnSlow)) {
+         t = TRANSITION_DURATION_DEFAULT;
+         deactivate(btnSlow);
+       } else {
+         t = TRANSITION_DURATION_SLOW;
+         activate(btnSlow);
+         deactivate(btnFast);
+       }
+     
+       Zooming.config({ transitionDuration: t });
+     }
+     
+     function dark() {
+       var c;
+       if (isActive(btnDark)) {
+         c = BG_COLOR_DEFAULT;
+         deactivate(btnDark);
+       } else {
+         c = BG_COLOR_DARK;
+         activate(btnDark);
+       }
+     
+       Zooming.config({ bgColor: c });
+     }
+     
+     function noGrab() {
+       var enable;
+       if (isActive(btnNoGrab)) {
+         enable = ENABLE_GRAB_DEFAULT;
+         deactivate(btnNoGrab);
+       } else {
+         enable = !ENABLE_GRAB_DEFAULT;
+         activate(btnNoGrab);
+       }
+     
+       Zooming.config({ enableGrab: enable });
+     }
+     //# sourceURL=pen.js
+         </script>
+</body>
 
 
 
@@ -311,6 +422,10 @@
 
 
 
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/aos.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 
 
