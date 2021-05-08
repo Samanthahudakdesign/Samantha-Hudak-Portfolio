@@ -3,13 +3,16 @@
 #intro-name{ 
   text-align: left;}
 
+#made-love {
+  margin-left: 60%;
+}
   
 .main {
   width: 100%;
 }
 
 #project-header {
-  margin-top: 20%;
+  margin-top: 50%;
 }
 .containter {
   padding-right: 15px;
@@ -32,12 +35,21 @@
   height: 634px;
   z-index: -1;}
 
+
   .about-blob-background {
     position: fixed;
     top:150px;
     right: 0;
     z-index: -1;}
   
+    .triangle-background-project {
+      position: absolute;
+      top:0px;
+      right: 0;
+      width: 953px;
+      height: 634px;
+      z-index: -1;}
+      }
 
   .resume-blob-top {
     position: absolute;
@@ -50,7 +62,21 @@
         top: 2100px;
         right: 0px;
         z-index: -1;}
-  p{
+ 
+    .project-blob-background {
+        position: fixed;
+        top: 450px;
+        right: 1;
+        z-index: -1;
+        transform: rotateY(
+    180deg
+    );
+    }
+    
+    
+ 
+ 
+        p{
   font-size: 16px;
 }
 a:link {
@@ -92,6 +118,17 @@ h1 {
     color:#ee6b62 ;
     
   }
+
+.project-header {
+  margin-left: 0px;
+  margin-top: 30%;
+}
+
+.project-name {
+  margin-left: 0px;
+  color: #2CBCB2;
+}
+
 
 h2 {  font-size: 28px;
       font-size: 14px;
@@ -177,9 +214,28 @@ h6 {
 
 
 
+.project-intro {
+  padding-top: 10%;
+}
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.column-persona {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
 
-
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 
@@ -569,7 +625,9 @@ margin-left: 30px;
         margin-right: 10%;
       }
 
-
+      #made-love {
+        margin-left: 40%;
+      }
 }
 @media screen and (max-width: 576px) {
   #intro-name{
@@ -637,6 +695,8 @@ margin-left: 30px;
   display: block;
   width: 100%;
 }
+
+
 
 @media screen and (max-width:1024px) {
   #intro-name{
