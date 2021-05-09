@@ -1,5 +1,7 @@
 * { margin: 0; padding: 0; }
-
+html {
+  scroll-behavior: smooth;
+}
 #intro-name{ 
   text-align: left;}
 
@@ -121,7 +123,7 @@ h1 {
 
 .project-header {
   margin-left: 0px;
-  margin-top: 30%;
+  margin-top: 5%;
 }
 
 .project-name {
@@ -461,6 +463,8 @@ button:hover {
     background-color: #2CBCB2;
   color: #ffffff; }
 
+
+  
 /*Transition*/
 .gallery img, .blog-content img, .submit button {
     transition: all 0.4s ease; }
@@ -562,9 +566,13 @@ margin-left: 30px;
 
 .footer .row {
   justify-content: right;
+  
 
 }
+.footer-left {
+margin-left: 10%;
 
+}
 #made-with-love {
   text-align: right;
   margin-left: 50%;
@@ -579,9 +587,16 @@ margin-left: 30px;
 .logo img {
   width: 25px;
 }
-
+.squiggle-project-header {
+  width: 15%;
+  margin-left: -10px;
+  margin-top: 0px;
 }
-
+}
+.footer-left {
+  margin-left: 8%;
+  
+  }
 
 /*Going to col-md*/
 @media screen and (max-width: 992px) {
@@ -626,7 +641,35 @@ margin-left: 30px;
       #made-love {
         margin-left: 40%;
       }
+
+      .squiggle-project-header {
+        width: 15%;
+        margin-left: -10px;
+        margin-top: 0px;
+      }
+
+      .footer-left {
+        margin-left: 15%;
+        
+        }
+
 }
+
+@media screen and (max-width: 800px) {
+
+  .footer-left {
+    margin-left: 10%;
+    
+    }
+  
+  }
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   #intro-name{
     text-align: left;
@@ -693,6 +736,18 @@ margin-left: 30px;
   display: block;
   width: 100%;
 }
+.squiggle-project-header {
+  width: 15%;
+  margin-left: -10px;
+  margin-top: 0px;
+}
+
+.footer-left {
+  margin-left: 15%;
+  
+  }
+
+}
 
 
 
@@ -733,6 +788,12 @@ margin-left: 30px;
   .more-information h2 {
       margin-top: 45px; }
 
+      .squiggle-project-header {
+        width: 15%;
+        margin-left: -10px;
+        margin-top: 0px;
+      }
+      
 }
 
 @media screen and (max-width: 400px) {
@@ -774,3 +835,30 @@ h7 {
   width: 80%;
   margin-left: 25px;
 }
+
+.squiggle-project-header {
+  width: 30%;
+  margin-left: -10px;
+  margin-top: 0px;
+}
+
+.project-photo {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.footer-left {
+  margin-left: 10%;
+  
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .footer-left {
+    margin-left: 10%;
+    
+    }
+  
+  }
