@@ -214,7 +214,10 @@ h6 {
   color:#F18982 ;  
 }
 
-
+ul {
+  
+  font-size: medium;
+}
 
 .project-intro {
   padding-top: 10%;
@@ -700,9 +703,7 @@ margin-left: 10%;
     background-color: #F9D477;
   }
 
-  .logo {
-    margin-left: 150px;
-  }
+  
   .hamburger {
     color: grey;
   }
