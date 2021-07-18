@@ -329,6 +329,11 @@ color:#292C6A ;}
   color: #ee6b62;
   margin-left: 10%;
 }
+
+.pricing {
+  color: #222D62;
+  margin-left: 10%;
+}
   
 }
 .img-responsive-about {
@@ -347,6 +352,11 @@ color:#292C6A ;}
   bottom: 0;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+}
+
+.project-item-photography {
+
+  padding-bottom: 25px;
 }
 .project-subtitle h3 {
   color: #454545;
@@ -466,6 +476,10 @@ button:hover {
     background-color: #2CBCB2;
   color: #ffffff; }
 
+.book {
+  margin-left: 10%;
+  background-color: #ffffff;
+}
 
   
 /*Transition*/
@@ -501,7 +515,8 @@ button:hover {
     font-family: 'Mukta', sans-serif;
     font-weight: 800;
     padding-left: 10px;
-    padding-right: 10px;
+    
+    width: 100%;
  }
 
 .nav-link a { line-height: 51px;
