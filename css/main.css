@@ -2,6 +2,36 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #intro-name{ 
   text-align: left;}
 
@@ -22,7 +52,7 @@ html {
     margin-right: auto;
     margin-left: auto;
 }
-  }
+
   body {
     
     background-image: url(triangle-blob.svg), none;
@@ -100,7 +130,8 @@ body {
     font-family: 'Mukta', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #222D62; }
+    color: #222D62;
+  margin-bottom: 5%; }
 
     .learn-more {
       text-decoration: none;
@@ -457,24 +488,42 @@ li { list-style-type: none; }
   margin-bottom: -20px;
 }
 /*Button*/
+
+
 button {
-    background-color: #FFF8FA;
-    color: #2CBCB2;
-    padding: 16px 60px 16px 60px;
-    border: 2px solid #2CBCB2;
-    font-size: 18px;
-    font-family: Mukta;
-    font-weight: 700;
-    outline: none;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 15%;
-    border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
   
+  width: 100px;
+  height: 40px;
+  left: 9292px;
+  top: 6218px;
+  
+  /* M3/sys/light/primary
+  
+  token=md.sys.color.primary
+  
+  primary / on-primary
+  
+  Regular text:
+  Level AA - ✅ Pass
+  Level AAA - ❌ Fail
+  
+  Large text:
+  Level AA - ✅ Pass
+  Level AAA - ✅ Pass
+  
+  Icons:
+  Level AA - ✅ Pass
+  */
+  background: #ffffff;
+  border-radius: 100px;
 }
-button:hover {
-    background-color: #2CBCB2;
-  color: #ffffff; }
+
 
 .book {
   margin-left: 10%;
