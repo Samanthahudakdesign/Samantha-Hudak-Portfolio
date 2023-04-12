@@ -1,13 +1,10 @@
 /*
 --Contact css--
 */
-
 .contact { margin-top: 150px; }
-
 .contact .triangles {
     margin-top: 15px;
     margin-bottom: 35px; }
-
 .contact-img {
     /*Image of a pc*/
     background: url("../images/contact/contact-lg.jpg");
@@ -19,11 +16,9 @@
     width: 100%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
-
 .contact p { margin-bottom: 8px; }
 .contact .submit { margin-top: 22px; }
 input { margin-bottom: 20px; }
-
 input, textarea {
     width: 100%;
     border: 2px solid #000000;
@@ -31,11 +26,9 @@ input, textarea {
     font-size: 18px;
     border-radius: 2px;
     color: #616161; }
-
 input:focus, textarea:focus {
     outline-color: #616161;
     -moz-outline-color: #616161;}
-
 /*Going to col-md*/
 @media screen and (max-width: 992px) {
     .contact-img {
@@ -45,11 +38,9 @@ input:focus, textarea:focus {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover; }
-
     .contact-img-container {
         margin-top: 35px; }
 }
-
 /*Going to col-sm*/
 @media screen and (max-width: 768px) {
     .contact-img {

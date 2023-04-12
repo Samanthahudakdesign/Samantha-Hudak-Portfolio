@@ -1,7 +1,6 @@
 /*
 --About css--
 */
-
 .container-images {
   justify-content: center;
   display: flex;
@@ -15,7 +14,6 @@
 .greetings p {
   text-align: left;
 }
-
 .greetings h2 {
   text-align: left;
   margin-left: 16%;
@@ -27,17 +25,14 @@ h1 {
   margin-left: 16%;
   margin-right: 16%;
 }
-
 .about li {
   padding: 16px 0 0 24px;
   color: #616161;
 }
-
 .underline {
   border-bottom: 1px solid #616161;
   padding: 1px 2px;
 }
-
 .img {
   width: 100%;
   height: 100%;
@@ -45,14 +40,12 @@ h1 {
 /*
 --More info css--
 */
-
 .more-information {
   margin-top: 75px;
 }
 .more-information h2 {
   margin-bottom: 10px;
 }
-
 @media screen and (max-width: 1024px) {
   .greetings h2 {
     font-size: 20px;
